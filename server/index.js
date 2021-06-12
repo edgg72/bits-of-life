@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.send('APP IS RUNNING')
 } )
 
-const CONNECTION_URL = 'mongodb+srv://ever:ever123123@cluster0.1breb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = put your own stuff here;
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
